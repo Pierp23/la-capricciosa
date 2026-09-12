@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  /* Rosso "pomodoro cotto a legna" — ispirato al logo storico bordeaux
+     della Capricciosa. Usato come colore 'primary' in app.config.ts */
+  --color-crust-50: #FDF3EE;
+  --color-crust-100: #FBE3D8;
+  --color-crust-200: #F5C3AD;
+  --color-crust-300: #EC9C79;
+  --color-crust-400: #DE6E45;
+  --color-crust-500: #C1442D;
+  --color-crust-600: #A3331F;
+  --color-crust-700: #7B1E2E;
+  --color-crust-800: #5C1620;
+  --color-crust-900: #3D0F16;
+  --color-crust-950: #240A0E;
+}
