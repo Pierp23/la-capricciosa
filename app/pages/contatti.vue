@@ -21,7 +21,7 @@ const orari = [
     <!-- TITOLO -->
     <div class="text-center space-y-2">
       <UBadge color="primary" variant="subtle" size="lg">Nuoro · Via la Marmora 134</UBadge>
-      <h1 class="text-4xl font-extrabold tracking-tight">Contatta La Capricciosa</h1>
+      <h1 class="text-4xl font-extrabold tracking-tight">Contatti</h1>
       <p class="text-neutral-600 dark:text-neutral-400">
         Pizzeria al taglio e d'asporto di Nanu Franco Rino
       </p>
