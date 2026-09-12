@@ -20,7 +20,7 @@ const orari = [
     
     <!-- TITOLO -->
     <div class="text-center space-y-2">
-      <UBadge color="primary" variant="subtle" size="lg">Nuoro · Via la Marmora 134</UBadge>
+      <UBadge color="primary" variant="subtle" size="lg">Nuoro · Via Nicolò Ferracciu, 26</UBadge>
       <h1 class="text-4xl font-extrabold tracking-tight">Contatti</h1>
       <p class="text-neutral-600 dark:text-neutral-400">
         Pizzeria al taglio e d'asporto di Nanu Franco Rino
@@ -36,7 +36,7 @@ const orari = [
           <div class="p-4 bg-primary-50 dark:bg-primary-950/40 rounded-full">
             <UIcon name="i-heroicons-phone" class="w-10 h-10 text-primary" />
           </div>
-          <h2 class="text-2xl font-bold">Ordini da Asporto</h2>
+          <h2 class="text-2xl font-bold">Chiamaci</h2>
           <p class="text-sm text-neutral-500">
             Chiama per prenotare le tue teglie calde o i tuoi tranci preferiti.
           </p>
@@ -89,7 +89,7 @@ const orari = [
             Dove Siamo
           </h3>
           <p class="text-lg font-medium">
-            Via La Marmora, 134<br />
+            Via Nicolò Ferracciu, 26<br />
            Nuoro (NU) - 08100 
           </p>
           <p class="text-sm text-neutral-500">

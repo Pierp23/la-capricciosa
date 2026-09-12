@@ -1,10 +1,14 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      // Rosso "pomodoro cotto a legna" definito in assets/css/main.css
       primary: 'crust',
-      // Grigio caldo (non freddo) per testo e sfondi neutri
       neutral: 'stone',
     },
+    tabs: {
+      slots: {
+        list: 'overflow-x-auto flex-nowrap justify-start sm:justify-center w-full',
+        trigger: 'w-max flex-shrink-0 whitespace-nowrap min-w-max'
+      }
+    }
   },
 })

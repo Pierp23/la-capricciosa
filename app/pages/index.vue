@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  title: 'Pizzeria La Capricciosa di Nanu Franco Rino - Nuoro',
+  title: 'Pizzeria La Capricciosa di Franco Rino Nanu - Nuoro',
   description: 'Pizzeria al taglio e d\'asporto a Nuoro in Via La Marmora. Pizze in teglia, focacce e ingredienti freschi preparati ogni giorno.'
 })
 
@@ -17,7 +17,7 @@ const puntiForza = [
   },
   {
     icon: 'i-heroicons-shopping-bag',
-    title: 'Tranci al Volo e Teglie d\'Asporto',
+    title: 'Tranci e Teglie d\'Asporto',
     description: 'La soluzione perfetta per una pausa gustosa in centro a Nuoro o da portare a casa appena sfornata.'
   }
 ]
@@ -37,7 +37,7 @@ const puntiForza = [
       
       <div class="absolute bottom-6 left-6 sm:bottom-8 sm:left-8">
         <UBadge color="primary" variant="outline" size="lg" class="text-white shadow-lg backdrop-blur-md bg-black/30">
-          📍 Nuoro · Via la Marmora, 134
+          📍 Nuoro · Via Nicolò Ferracciu, 26
         </UBadge>
       </div>
     </section>
@@ -53,7 +53,7 @@ const puntiForza = [
           di Nanu Franco Rino
         </p>
         <p class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base md:text-lg leading-relaxed pt-1 sm:pt-2">
-          La storica pizza in teglia e al taglio nel cuore di Nuoro. Croccantezza, passione e ingredienti di prima qualità selezionati e preparati a mano ogni giorno.
+          La storica pizza in teglia e al taglio nel cuore di Nuoro. <br> Croccantezza, passione e ingredienti di prima qualità selezionati e preparati a mano ogni giorno.
         </p>
       </div>
 
@@ -76,7 +76,7 @@ const puntiForza = [
           icon="i-heroicons-phone"
           class="w-full sm:w-auto justify-center dark:!text-white"
         >
-          Chiama e Ordina (+39 329 987 2735)
+          Chiama e Ordina
         </UButton>
       </div>
     </section>
@@ -89,7 +89,7 @@ const puntiForza = [
           La passione per la vera pizza in teglia
         </h2>
         <p class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base leading-relaxed">
-          L'arte della pizza in teglia ha il volto e le mani di Franco Rino Nanu. Ingredienti freschissimi preparati ogni giorno, condimenti abbondanti e un impasto leggero steso con cura artigianale.  
+          L'arte della pizza in teglia ha il volto e le mani di Franco Rino Nanu. <br> Ingredienti freschissimi preparati ogni giorno, condimenti abbondanti e un impasto leggero steso con cura artigianale.  
         </p>
         <p class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base leading-relaxed">
           Che sia per una pausa veloce o per una teglia da condividere a casa, da <strong class="text-primary-600 dark:text-primary-600">La Capricciosa</strong> trovi sempre il profumo e la bontà della pizza appena sfornata.
@@ -142,7 +142,7 @@ const puntiForza = [
         <div class="space-y-4 pt-2">
           <div class="flex items-center gap-3 text-sm sm:text-base">
             <UIcon name="i-heroicons-map-pin" class="w-5 h-5 text-primary-600 dark:text-primary-600 flex-shrink-0" />
-            <span>Via La Marmora 134 - Nuoro (NU) 08100</span>
+            <span>Via Nicolò Ferracciu, 26 - Nuoro (NU) - 08100</span>
           </div>
           <div class="flex items-center gap-3 text-sm sm:text-base">
             <UIcon name="i-heroicons-phone" class="w-5 h-5 text-primary-600 dark:text-primary-600 flex-shrink-0" />

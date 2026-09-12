@@ -87,14 +87,14 @@ const links = [
 
           <!-- Footer del Menu Mobile -->
           <div class="pt-6 border-t border-neutral-200 dark:border-neutral-800 text-center space-y-3">
-            <p class="text-xs text-neutral-500">Via La Marmora 134, Nuoro</p>
+            <p class="text-xs text-neutral-500">Via Nicolò Ferracciu, 26 - Nuoro (NU) - 08100</p>
             <UButton 
               to="tel:+393299872735" 
               color="primary" 
               icon="i-heroicons-phone" 
               class="w-full justify-center"
             >
-              Chiama (+39 329 987 2735)
+              Chiamaci
             </UButton>
           </div>
         </div>

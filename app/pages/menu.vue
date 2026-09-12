@@ -14,19 +14,20 @@ const categories = [
 // Lista dei prodotti divisa per categoria
 const menu = {
   rosse: [
-    { name: 'Margherita', ingredients: 'Pomodoro San Marzano, mozzarella fior di latte, basilico fresco, olio EVO', price: '6.50', vegetariana: true, piccante: false },
-    { name: 'Diavola', ingredients: 'Pomodoro, mozzarella, salame piccante calabrese, olio piccante', price: '8.00', vegetariana: false, piccante: true },
+    { name: 'Margherita', ingredients: 'Pomodoro, mozzarella, basilico fresco, olio EVO', price: '6.50', vegetariana: true, piccante: false },
+    { name: 'Diavola', ingredients: 'Pomodoro, mozzarella, salame piccante, olio piccante', price: '8.00', vegetariana: false, piccante: true },
     { name: 'Capricciosa', ingredients: 'Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive nere', price: '9.00', vegetariana: false, piccante: false },
-    { name: 'Marinara', ingredients: 'Pomodoro, aglio, origano, olio EVO', price: '5.50', vegetariana: true, piccante: false }
+    { name: 'Boscaiola', ingredients: 'Pomodoro, salsiccia, funghi', price: '5.50', vegetariana: false, piccante: false }
   ],
   bianche: [
-    { name: '4 Formaggi', ingredients: 'Mozzarella, gorgonzola DOP, fontina, parmigiano reggiano', price: '9.00', vegetariana: true, piccante: false },
-    { name: 'Salsiccia e Friarielli', ingredients: 'Mozzarella, salsiccia fresca, friarielli ripassati in padella', price: '9.50', vegetariana: false, piccante: false },
-    { name: 'Primavera', ingredients: 'Mozzarella, pomodorini pachino, rucola, scaglie di grana', price: '8.50', vegetariana: true, piccante: false }
+    { name: '4 Formaggi', ingredients: 'Mozzarella, gorgonzola DOP, fontina, parmigiano reggiano', price: '9.00', vegetariana: false, piccante: false },
+    { name: 'Tonno e cipolla', ingredients: 'Mozzarella, tonno, cipolla', price: '9.50', vegetariana: false, piccante: false },
+    { name: 'Patate', ingredients: 'Mozzarella, patate al forno', price: '8.50', vegetariana: true, piccante: false },
+    { name: 'Peperoni', ingredients: 'Mozzarella, peperoni', price: '8.50', vegetariana: true, piccante: false }
   ],
   speciali: [
-    { name: 'La Capricciosa 2.0', ingredients: 'Cornicione ripieno di ricotta, pomodoro giallo, mozzarella di bufala, crudo di Parma 24 mesi', price: '12.00', vegetariana: false, piccante: false },
-    { name: 'Tartufata', ingredients: 'Crema di tartufo nero, mozzarella, funghi porcini, salsiccia, olio tartufato', price: '13.00', vegetariana: false, piccante: false }
+    { name: 'La Capricciosa 2.0', ingredients: 'Pomodoro, mozzarella, pinoli', price: '12.00', vegetariana: true, piccante: false },
+    { name: 'Antunna', ingredients: 'Pomodoro, mozzarella, antunna', price: '13.00', vegetariana: true, piccante: false }
   ]
 }
 </script>
@@ -42,7 +43,6 @@ const menu = {
     </div>
 
     <!-- TABS E LISTA PIZZE -->
-<!-- CAMBIA #item IN #content -->
 <UTabs :items="categories" class="w-full">
   <template #content="{ item }">
     <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
