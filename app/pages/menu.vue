@@ -36,7 +36,7 @@ const menu = {
   <div class="py-8 space-y-8">
     <!-- TITOLO PAGINA -->
     <div class="text-center space-y-2">
-      <h1 class="text-4xl font-extrabold tracking-tight">Il Nostro Menu</h1>
+      <h1 class="text-4xl font-extrabold tracking-tight">Le nostre Pizze</h1>
       <p class="text-neutral-500 max-w-xl mx-auto">
         Tutte le nostre pizze sono preparate con un impasto a lievitazione naturale di 48 ore.
       </p>

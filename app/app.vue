@@ -9,7 +9,7 @@ watch(() => route.fullPath, () => {
 
 const links = [
   { label: 'Home', to: '/', icon: 'i-heroicons-home' },
-  { label: 'Menu', to: '/menu', icon: 'i-heroicons-book-open' },
+  { label: 'Le Pizze', to: '/menu', icon: 'i-heroicons-book-open' },
   { label: 'Contatti', to: '/contatti', icon: 'i-heroicons-phone' }
 ]
 </script>
@@ -87,7 +87,14 @@ const links = [
 
           <!-- Footer del Menu Mobile -->
           <div class="pt-6 border-t border-neutral-200 dark:border-neutral-800 text-center space-y-3">
-            <p class="text-xs text-neutral-500">Via Nicolò Ferracciu, 26 - Nuoro (NU) - 08100</p>
+            <p class="text-xs text-neutral-500">
+              <a 
+                href="https://maps.app.goo.gl/qd28DXarjmVp6F68A" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                  Via Nicolò Ferracciu, 26 - Nuoro (NU) - 08100
+              </a>
+            </p>
             <UButton 
               to="tel:+393299872735" 
               color="primary" 

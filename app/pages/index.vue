@@ -30,14 +30,19 @@ const puntiForza = [
     <section class="hidden md:block relative rounded-2xl overflow-hidden shadow-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-900 group my-4">
       <img 
         src="/images/pizzeria-1.jpg" 
-        alt="La Capricciosa Pizzeria di Nanu Franco Rino" 
+        alt="La Capricciosa Pizzeria di Franco Rino Nanu" 
         class="w-full h-80 md:h-96 lg:h-[480px] object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
       
       <div class="absolute bottom-6 left-6 sm:bottom-8 sm:left-8">
         <UBadge color="primary" variant="outline" size="lg" class="text-white shadow-lg backdrop-blur-md bg-black/30">
-          📍 Nuoro · Via Nicolò Ferracciu, 26
+          <a 
+              href="https://maps.app.goo.gl/qd28DXarjmVp6F68A" 
+              target="_blank" 
+              rel="noopener noreferrer">
+               📍 Nuoro · Via Nicolò Ferracciu, 26s
+            </a>
         </UBadge>
       </div>
     </section>
@@ -50,7 +55,7 @@ const puntiForza = [
           Pizzeria La Capricciosa
         </h1>
         <p class="text-lg sm:text-xl font-medium text-primary-600 dark:text-primary-600">
-          di Nanu Franco Rino
+          di Franco Rino Nanu
         </p>
         <p class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base md:text-lg leading-relaxed pt-1 sm:pt-2">
           La storica pizza in teglia e al taglio nel cuore di Nuoro. <br> Croccantezza, passione e ingredienti di prima qualità selezionati e preparati a mano ogni giorno.
@@ -142,7 +147,12 @@ const puntiForza = [
         <div class="space-y-4 pt-2">
           <div class="flex items-center gap-3 text-sm sm:text-base">
             <UIcon name="i-heroicons-map-pin" class="w-5 h-5 text-primary-600 dark:text-primary-600 flex-shrink-0" />
-            <span>Via Nicolò Ferracciu, 26 - Nuoro (NU) - 08100</span>
+            <a 
+              href="https://maps.app.goo.gl/qd28DXarjmVp6F68A" 
+              target="_blank" 
+              rel="noopener noreferrer">
+                Via Nicolò Ferracciu, 26 - Nuoro (NU) - 08100
+            </a>
           </div>
           <div class="flex items-center gap-3 text-sm sm:text-base">
             <UIcon name="i-heroicons-phone" class="w-5 h-5 text-primary-600 dark:text-primary-600 flex-shrink-0" />

@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
   title: 'Contatti - Pizzeria La Capricciosa Nuoro',
-  description: 'Contatta La Capricciosa di Nanu Franco Rino a Nuoro. Telefono per ordini da asporto e pagina Facebook ufficiale.'
+  description: 'Contatta La Capricciosa di Franco Rino Nanu a Nuoro. Telefono per ordini da asporto e pagina Facebook ufficiale.'
 })
 
 const orari = [
@@ -20,10 +20,18 @@ const orari = [
     
     <!-- TITOLO -->
     <div class="text-center space-y-2">
-      <UBadge color="primary" variant="subtle" size="lg">Nuoro · Via Nicolò Ferracciu, 26</UBadge>
+      <UBadge color="primary" variant="subtle" size="lg">
+        <a 
+            href="https://maps.app.goo.gl/qd28DXarjmVp6F68A" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+                Nuoro · Via Nicolò Ferracciu, 26
+        </a>
+    </UBadge>
       <h1 class="text-4xl font-extrabold tracking-tight">Contatti</h1>
       <p class="text-neutral-600 dark:text-neutral-400">
-        Pizzeria al taglio e d'asporto di Nanu Franco Rino
+        Pizzeria al taglio e d'asporto di Franco Rino Nanu
       </p>
     </div>
 
@@ -80,19 +88,28 @@ const orari = [
 
     <!-- SEZIONE ORARI E INDIRIZZO -->
     <UCard class="bg-neutral-50 dark:bg-neutral-800/50">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         
         <!-- INDIRIZZO -->
-        <div class="space-y-4">
-          <h3 class="text-xl font-bold flex items-center gap-2">
+        <div>
+          <h4 class="text-xl font-bold flex items-center gap-2">
             <UIcon name="i-heroicons-map-pin" class="w-6 h-6 text-primary" />
             Dove Siamo
-          </h3>
-          <p class="text-lg font-medium">
-            Via Nicolò Ferracciu, 26<br />
-           Nuoro (NU) - 08100 
+          </h4>
+          <p class="pt-5">
+            <a 
+                href="https://maps.app.goo.gl/qd28DXarjmVp6F68A" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="text-md font-medium text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400 block"
+                >
+                    Via Nicolò Ferracciu, 26 
+                    <br/>
+                    Nuoro (NU) - 08100
+            </a>
           </p>
-          <p class="text-sm text-neutral-500">
+           
+          <p class="text-sm text-neutral-500 pt-3">
             Ci trovi nel cuore di Nuoro, pronti ad accoglierti per una pausa gustosa o per una teglia d'asporto.
           </p>
         </div>
