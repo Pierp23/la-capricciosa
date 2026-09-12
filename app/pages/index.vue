@@ -41,7 +41,7 @@ const puntiForza = [
               href="https://maps.app.goo.gl/qd28DXarjmVp6F68A" 
               target="_blank" 
               rel="noopener noreferrer">
-               📍 Nuoro · Via Nicolò Ferracciu, 26s
+               📍 Nuoro · Via Nicolò Ferracciu, 26
             </a>
         </UBadge>
       </div>
