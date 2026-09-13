@@ -3,6 +3,7 @@ export default defineAppConfig({
     colors: {
       primary: 'crust',
       neutral: 'stone',
+      success: 'green',
     },
     tabs: {
       slots: {
