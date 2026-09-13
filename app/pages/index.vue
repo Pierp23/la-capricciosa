@@ -27,11 +27,11 @@ const puntiForza = [
   <div class="space-y-8 sm:space-y-12 pb-12">
     
     <!-- 1. HERO BANNER: VISIBILE SOLO DA TABLET/DESKTOP IN SU (MD+) -->
-    <section class="hidden md:block relative rounded-2xl overflow-hidden shadow-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-900 group my-4">
+    <section class=" relative rounded-2xl overflow-hidden shadow-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-900 group my-4">
       <img 
         src="/images/pizzeria-1.jpg" 
         alt="La Capricciosa Pizzeria di Franco Rino Nanu" 
-        class="w-full h-80 md:h-96 lg:h-[480px] object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
+        class="w-full h-40 md:h-80 lg:h-[480px] object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
       
@@ -63,13 +63,13 @@ const puntiForza = [
       </div>
 
       <!-- Pulsanti responsive: Full width su smartphone, affiancati su tablet/PC -->
-      <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 pt-2">
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 pt-2">
         <UButton 
           to="/menu" 
           color="primary" 
           size="xl" 
           icon="i-heroicons-book-open"
-          class="w-full sm:w-auto justify-center dark:!text-white"
+          class="w-max justify-center dark:!text-white"
         >
           Sfoglia il Menu
         </UButton>
@@ -79,7 +79,7 @@ const puntiForza = [
           variant="outline" 
           size="xl" 
           icon="i-heroicons-phone"
-          class="w-full sm:w-auto justify-center dark:!text-white"
+          class="w-max justify-center dark:!text-white"
         >
           Chiama e Ordina
         </UButton>
@@ -87,7 +87,7 @@ const puntiForza = [
     </section>
 
     <!-- 3. SEZIONE ARTIGIANALITÀ (FRANCO RINO NANU) -->
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center pt-2 sm:pt-4">
+    <section class="grid grid-cols-1 gap-8 items-center pt-2 sm:pt-4">
       <div class="space-y-4 text-left">
         <UBadge color="neutral" variant="subtle">Tradizione Nuorese</UBadge>
         <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight">
@@ -102,7 +102,7 @@ const puntiForza = [
       </div>
 
       <!-- Foto affiancate della lavorazione -->
-      <div class="grid grid-cols-2 gap-3 sm:gap-4">
+      <div class="grid md:grid-cols-2 gap-3 sm:gap-4">
         <div class="space-y-2">
           <img 
             src="/images/pizzeria-2.jpg" 
