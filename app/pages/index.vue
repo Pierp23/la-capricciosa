@@ -137,7 +137,7 @@ const puntiForza = [
     </section>
 
     <!-- 5. INFO LOCALE ED ORARI -->
-    <section class="bg-neutral-100 dark:bg-neutral-800/80 rounded-2xl p-5 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start md:items-center">
+    <section class="bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 rounded-2xl p-5 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start md:items-center">
       <div class="space-y-4">
         <h2 class="text-2xl sm:text-3xl font-bold">Dove trovarci a Nuoro?</h2>
         <p class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base">
@@ -175,11 +175,11 @@ const puntiForza = [
                 <span>Mercoledì:</span>
                 <span class="font-medium">19:15 – 22:15</span>
 
-                <span class="text-error font-medium">Giovedì:</span>
-                <span class="text-error font-medium">Chiuso</span>
+                <span class="text-red-700 dark:text-red-400 font-medium">Giovedì:</span>
+                <span class="text-red-700 dark:text-red-400 font-medium">Chiuso</span>
 
-                <span class="text-error font-medium">Venerdì:</span>
-                <span class="text-error font-medium">Chiuso</span>
+                <span class="text-red-700 dark:text-red-400 font-medium">Venerdì:</span>
+                <span class="text-red-700 dark:text-red-400 font-medium">Chiuso</span>
 
                 <span>Sabato:</span>
                 <span class="font-medium">19:15 – 22:00</span>
