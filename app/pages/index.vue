@@ -28,10 +28,13 @@ const puntiForza = [
     
     <!-- 1. HERO BANNER: VISIBILE SOLO DA TABLET/DESKTOP IN SU (MD+) -->
     <section class=" relative rounded-2xl overflow-hidden shadow-2xl border border-neutral-200 dark:border-neutral-800 bg-neutral-900 group my-4">
-      <img 
+      <NuxtImg 
         src="/images/pizzeria-1.jpg" 
         alt="La Capricciosa Pizzeria di Franco Rino Nanu" 
         class="w-full h-40 md:h-80 lg:h-[480px] object-cover object-top transform group-hover:scale-105 transition-transform duration-700"
+        format="webp"
+        sizes="sm:100vw md:50vw lg:1280px"
+        preload
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
       
@@ -104,18 +107,22 @@ const puntiForza = [
       <!-- Foto affiancate della lavorazione -->
       <div class="grid md:grid-cols-2 gap-3 sm:gap-4">
         <div class="space-y-2">
-          <img 
-            src="/images/pizzeria-2.jpg" 
-            alt="Stesura dell'impasto a mano" 
-            class="rounded-xl shadow-md aspect-[3/4] object-cover w-full border border-neutral-200 dark:border-neutral-800"
-          />
+        <NuxtImg 
+          src="/images/pizzeria-2.jpg" 
+          alt="Stesura dell'impasto a mano" 
+          class="rounded-xl shadow-md aspect-[3/4] object-cover w-full border border-neutral-200 dark:border-neutral-800"
+          format="webp"
+          sizes="sm:100vw md:50vw lg:600px"
+        />
           <p class="text-xs text-center text-neutral-500">Stesura dell'impasto</p>
         </div>
         <div class="space-y-2">
-          <img 
+          <NuxtImg 
             src="/images/pizzeria-3.jpg" 
             alt="Condimento pizze con verdure fresche" 
             class="rounded-xl shadow-md aspect-[3/4] object-cover w-full border border-neutral-200 dark:border-neutral-800"
+            format="webp"
+            sizes="sm:100vw md:50vw lg:600px"
           />
           <p class="text-xs text-center text-neutral-500">Condimenti freschi in teglia</p>
         </div>
@@ -137,7 +144,7 @@ const puntiForza = [
     </section>
 
     <!-- 5. INFO LOCALE ED ORARI -->
-    <section class="bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 rounded-2xl p-5 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start md:items-center">
+    <section class="bg-crust-50 dark:bg-neutral-800/80 border border-neutral-200/80 rounded-2xl p-5 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start md:items-center">
       <div class="space-y-4">
         <h2 class="text-2xl sm:text-3xl font-bold">Dove trovarci a Nuoro?</h2>
         <p class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base">
