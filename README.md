@@ -33,10 +33,10 @@ Un sito web moderno, responsive e ad alte prestazioni sviluppato in onore alla p
 Ecco le prestazioni del sito verificate su Google PageSpeed Insights.
 
 Versione desktop:
-![PageSpeed Insights Score]()
+![PageSpeed Insights Score](./public/images/PageSpeedDesktop.png)
 
 Versione mobile:
-![PageSpeed Insights Score]()
+![PageSpeed Insights Score](./public/images/PageSpeedMobile.png)
 
 ---
 
