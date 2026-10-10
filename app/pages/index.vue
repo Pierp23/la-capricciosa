@@ -130,7 +130,7 @@ const puntiForza = [
     </section>
     <!-- 4. PUNTI DI FORZA -->
     <section class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 pt-2 sm:pt-4">
-      <UCard v-for="(item, index) in puntiForza" :key="index" class="text-center hover:shadow-lg transition">
+      <UCard v-for="(item, index) in puntiForza" :key="index" class="text-center hover:shadow-lg transition border border-primary/40 dark:border-primary/50">
         <template #header>
           <div class="flex justify-center">
             <UIcon :name="item.icon" class="w-8 h-8 sm:w-10 sm:h-10 text-primary-600 dark:text-primary-600" />
@@ -144,7 +144,7 @@ const puntiForza = [
     </section>
 
     <!-- 5. INFO LOCALE ED ORARI -->
-    <section class="bg-crust-50 dark:bg-neutral-800/80 border border-neutral-200/80 rounded-2xl p-5 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start md:items-center">
+    <section class="bg-crust-50 dark:bg-crust-600/40 border border-neutral-200/80 rounded-2xl p-5 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-start md:items-center">
       <div class="space-y-4">
         <h2 class="text-2xl sm:text-3xl font-bold">Dove trovarci a Nuoro?</h2>
         <p class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base">
@@ -153,21 +153,22 @@ const puntiForza = [
         
         <div class="space-y-4 pt-2">
           <div class="flex items-center gap-3 text-sm sm:text-base">
-            <UIcon name="i-heroicons-map-pin" class="w-5 h-5 text-primary-600 dark:text-primary-600 flex-shrink-0" />
+            <UIcon name="i-heroicons-map-pin" class="w-5 h-5 text-primary-600 dark:text-red-400 flex-shrink-0" />
             <a 
               href="https://maps.app.goo.gl/qd28DXarjmVp6F68A" 
               target="_blank" 
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+              class="font-semibold">
                 Via Nicolò Ferracciu, 26 - Nuoro (NU) - 08100
             </a>
           </div>
           <div class="flex items-center gap-3 text-sm sm:text-base">
-            <UIcon name="i-heroicons-phone" class="w-5 h-5 text-primary-600 dark:text-primary-600 flex-shrink-0" />
+            <UIcon name="i-heroicons-phone" class="w-5 h-5 text-primary-600 dark:text-red-400 flex-shrink-0" />
             <a href="tel:+393299872735" class="hover:underline font-semibold">+39 329 987 2735</a>
           </div>
           
           <div class="flex items-start gap-3 pt-2">
-            <UIcon name="i-heroicons-clock" class="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+            <UIcon name="i-heroicons-clock" class="w-5 h-5 text-primary-600 dark:text-red-400 flex-shrink-0 mt-1" />
             <div class="text-sm space-y-1 w-full">
               <p class="font-semibold text-base text-neutral-900 dark:text-neutral-100 mb-2">
                 Orari di Apertura:
@@ -201,7 +202,7 @@ const puntiForza = [
 
       <!-- SOCIAL E RECENSIONI -->
       <div class="flex flex-col items-center gap-4 w-full">
-        <UCard class="w-full text-center space-y-4">
+        <UCard class="w-full text-center space-y-4 border border-primary/40 dark:border-neutral-200/40">
           <h3 class="text-base sm:text-lg font-bold">I Nostri Canali</h3>
           <p class="text-xs sm:text-sm text-neutral-500">Leggi le recensioni o resta aggiornato sulle teglie del giorno.</p>
           <div class="flex flex-col sm:flex-row justify-center gap-3 pt-2">
