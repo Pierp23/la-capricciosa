@@ -27,6 +27,19 @@ Un sito web moderno, responsive e ad alte prestazioni sviluppato in onore alla p
 
 ---
 
+---
+## 🚀 Prestazioni (PageSpeed Insights)
+
+Ecco le prestazioni del sito verificate su Google PageSpeed Insights.
+
+Versione desktop:
+![PageSpeed Insights Score]()
+
+Versione mobile:
+![PageSpeed Insights Score]()
+
+---
+
 ## 🛑 Proprietà Intellettuale & Utilizzo del Codice
 
 Questo repository è pubblicato su GitHub **esclusivamente a scopo di portfolio e consultazione visiva**. 
